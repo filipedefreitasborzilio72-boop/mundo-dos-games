@@ -1,0 +1,49 @@
+/*Resete do navegador*/    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Configurações gereais*/
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.8;
+    color: #333;
+    background: linear-gradient(
+        135deg,
+        rgba(37, 99, 235, 0.9),
+        rgba(99, 102, 241, 0.9),
+        rgba(222, 176, 2, 0.7)
+    );
+    min-height: 100vh;
+}
+
+/*Links*/
+
+a{
+    color: rgb(83, 83, 114);
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+a:hover{
+    color: rgb(55, 55, 92);
+    font-size: 35px;
+    font-weight: 600;
+}
+
+/* Menu de Navegação*/
+
+nav{
+    background: rgba(17, 24, 39, 0.8);
+    backdrop-filter: blur(8px);
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.25);
+    padding: 15px 0 15px 10px;
+}
