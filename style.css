@@ -23,7 +23,7 @@ body {
 /*Links*/
 
 a{
-    color: rgb(83, 83, 114);
+    color: rgb(59, 59, 122);
     text-decoration: none;
     transition: 0.3s;
     font-size: 30px;
@@ -31,7 +31,7 @@ a{
 }
 
 a:hover{
-    color: rgb(55, 55, 92);
+    color: rgb(196, 196, 216);
     font-size: 35px;
     font-weight: 600;
 }
@@ -46,4 +46,93 @@ nav{
     z-index: 1000;
     box-shadow: 0 3px 15px rgba(0, 0, 0, 0.25);
     padding: 15px 0 15px 10px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+nav li{
+    margin: 0;
+}
+
+nav a{
+    color: white;
+    font-weight: 600px;
+    padding: 10px 18px;
+    border-radius: 8px;
+
+    transition: all 0.3s ease;
+}
+nav a:hover{
+    background-color: rgba(255, 255, 255, 0.15);
+    color: #d1cfcf;
+}
+
+/* DIVs de conteudo*/
+div{
+    max-width: 90%;
+    min-width: 350px;
+    margin: 30px auto;
+    padding: 35px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+/*Titulos e Sub-Titulos*/
+h1{
+    font-size: 2.6rem;
+    color: #1e3a8a;
+    margin-bottom: 25px;
+    border-bottom: 3px solid #2563ed;
+    padding-bottom: 12px;
+    line-height: 1.3;
+}
+h2{
+    font-size: 1.8rem;
+    color: #2563ed;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+h3{
+    font-size: 1.4rem;
+    color: #475569;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+/* Textos */
+p{
+    font-size: 1.4rem;
+    font-weight: 220px;
+    text-align: justify;
+    padding: 20px;
+    margin-bottom: 18px;
+}
+strong{
+    display: block;
+    margin-top: 20px;
+    padding: 15px;
+    background: #eff6ff;
+    border-left: 5px solid #2563ed;
+    border-radius: 8px;
+    font-size: 1.1rem;
+}
+/*Listas*/
+ul{
+    margin-bottom: 15px 0 20px 30px;
+}
+li{
+    margin-bottom: 10px;
+}
+/*Separadores*/
+hr{
+    width: 90%;
+    margin: 20px auto;
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
 }
