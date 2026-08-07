@@ -1,7 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Logo TI44">
   <rect width="200" height="200" rx="32" fill="#0b1020"/>
-  <path d="M70 42h60v18H112v94h-18V60H70z" fill="#2f6fed"/>
-  <path d="M94 42h18v112h-18z" fill="#d93a3a"/>
-  <path d="M60 150h86" stroke="#f5f5f5" stroke-width="10" stroke-linecap="round"/>
-  <text x="100" y="164" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" fill="#f5f5f5">44</text>
+  <text x="92" y="95" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="70" font-weight="700" fill="#2f6fed">T</text>
+  <text x="124" y="95" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="70" font-weight="700" fill="#d93a3a">I</text>
+  <text x="108" y="145" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700" fill="#f5f5f5">44</text>
 </svg>
