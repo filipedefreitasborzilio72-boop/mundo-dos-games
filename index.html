@@ -1,30 +1,51 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site sobre jogos eletrônicos com conteúdo educativo e visual moderno.">
     <link rel="stylesheet" href="style.css">
-    <title>Jogos Eletrônicos</title>
+    <title>Jogos Eletrônicos | TI44</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="introducao.html">Introdução</a></li>
-            <li><a href="generos.html">Principais Gêneros</a></li>
-            <li><a href="beneficios.html">Benefícios</a></li>
-            <li><a href="conclusao.html">Concusão</a></li>
-        </ul>
-    </nav>
-    <h1>Jogos Eletrônicos</h1>
-    <p>
-        Os jogos eletrônicos são uma das formas de entretenimento mais populares da atualidade. Eles surgiram como uma tecnologia simples, mas evoluíram rapidamente graças aos avanços da informática e dos dispositivos digitais. Hoje, estão presentes em computadores, consoles, celulares e até em plataformas de realidade virtual, oferecendo experiências interativas para pessoas de todas as idades.
+    <!-- Link de acesso rápido para leitores de tela e navegação por teclado -->
+    <a class="skip-link" href="#conteudo-principal">Pular para o conteúdo</a>
 
-Além da diversão, os jogos eletrônicos podem contribuir para o desenvolvimento de habilidades como raciocínio lógico, coordenação motora, criatividade, resolução de problemas e trabalho em equipe. Eles também têm grande importância econômica e cultural, movimentando uma indústria bilionária e influenciando áreas como educação, esportes eletrônicos (eSports) e produção de conteúdo digital.
+    <!-- Cabeçalho com marca, logo e navegação principal -->
+    <header class="site-header">
+        <a class="brand" href="index.html" aria-label="Página inicial TI44">
+            <img src="logo-ti-44.svg" alt="Logo da marca TI44">
+            <span>TI44</span>
+        </a>
+        <nav aria-label="Navegação principal">
+            <ul>
+                <li><a href="index.html" aria-current="page">Home</a></li>
+                <li><a href="introducao.html">Introdução</a></li>
+                <li><a href="generos.html">Gêneros</a></li>
+                <li><a href="beneficios.html">Benefícios</a></li>
+                <li><a href="conclusao.html">Conclusão</a></li>
+            </ul>
+        </nav>
+    </header>
 
-Dessa forma, os jogos eletrônicos deixaram de ser apenas um passatempo e passaram a ocupar um papel significativo na sociedade moderna, unindo tecnologia, inovação e entretenimento.
+    <!-- Conteúdo principal com hero e texto introdutório -->
+    <main id="conteudo-principal">
+        <section class="hero">
+            <p class="eyebrow">Explorando o universo dos games</p>
+            <h1>Jogos eletrônicos</h1>
+            <p>Os jogos eletrônicos são uma das formas de entretenimento mais populares da atualidade. Eles surgiram como uma tecnologia simples, mas evoluíram rapidamente graças aos avanços da informática e dos dispositivos digitais. Hoje, estão presentes em computadores, consoles, celulares e até em plataformas de realidade virtual, oferecendo experiências interativas para pessoas de todas as idades.</p>
+            <a class="button" href="introducao.html">Conheça mais</a>
+        </section>
 
-    </p>
-    
+        <section class="content-card">
+            <h2>Por que eles são importantes?</h2>
+            <p>Além da diversão, os jogos eletrônicos podem contribuir para o desenvolvimento de habilidades como raciocínio lógico, coordenação motora, criatividade, resolução de problemas e trabalho em equipe. Eles também têm grande importância econômica e cultural, movimentando uma indústria bilionária e influenciando áreas como educação, esportes eletrônicos e produção de conteúdo digital.</p>
+            <p>Dessa forma, os jogos eletrônicos deixaram de ser apenas um passatempo e passaram a ocupar um papel significativo na sociedade moderna, unindo tecnologia, inovação e entretenimento.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>TI44 — Conhecimento, cultura e games em um só lugar.</p>
+    </footer>
 </body>
 </html>
