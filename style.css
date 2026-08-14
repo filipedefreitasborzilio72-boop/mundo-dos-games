@@ -206,3 +206,14 @@ footer {
         padding: 1.4rem;
     }
 }
+
+.content-card{
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease-out, tranform 0.8s ease-out;
+}
+
+.content-card.visivel {
+    opacity: 1;
+    transform: translateY(0);
+}
